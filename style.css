@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    background-color: aqua;
+}
+main {
+    width: 30vw;
+    text-align: center;
+    background-color: white;
+    color:black;
+    padding:20px 20px;
+}
+.image {
+    width:80%;
+    max-height:15rem;
+    height: auto;
+    margin:1rem 0 4rem 0;
+    margin-left:20px;
+}
+h2 {
+    font-size:1.5rem;
+    margin: 1rem;
+}
+.eventSelection{
+   margin-top:-50px;
+   font-size:28px;
+}
+.button-wrapper{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    left:70px;
+}
+.button-wrapper button{
+    font-size:20px;
+    width:20vw;
+    padding:10px 10px;
+    margin-top:15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+}
+#b1{
+    background-color: rgb(56, 56, 175);
+}
+#b2{
+    background-color: rgb(2, 2, 88);
+}
+#gameArea{
+    display:none;
+}
+h3{
+    font-size: 3rem;
+}
+input {
+    border: 1px solid lightgray;
+    background: transparent;
+    margin: 4rem 0;
+    padding:1rem 0;
+    width:20rem;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size:1.5rem;
+}
+.stats {
+    text-align: left;
+    margin-bottom: 4rem;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+p {
+    font-size:1.5rem;
+}
+.info span {
+    font-size:1.8rem;
+    color: #ff0511;
+}
+.btn{
+    font-size:20px;
+    width:20vw;
+    padding:20px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin:15px 10px;
+    cursor:pointer;
+    color:white;
+    background-color: rgb(17, 17, 175);
+}
+@media(max-width:1180px){
+    .button-wrapper{
+        position:relative;
+        left:50px;
+    }
+    input{
+        width:17rem;
+    }
+}
+@media(max-width:900px){
+    .button-wrapper{
+        position:relative;
+        left:40px;
+    }
+    input{
+        width:13rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
+@media(max-width:700px){
+    .button-wrapper{
+        position:relative;
+        left:30px;
+    }
+    input{
+        width:10rem;
+        padding:0.75rem;
+        font-size: 1rem;
+    }
+}
+@media(max-width:600px){
+    input{
+        width:8rem;
+        font-size:0.75rem;
+    }
+}
+@media(max-width:513px){
+    .button-wrapper{
+        position:relative;
+        left:20px;
+    }
+    .button-wrapper button{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    input{
+        width:6.5rem;
+        font-size:0.65rem;
+        padding:0.5rem;
+    }
+}
+@media(max-width:376px){
+    .button-wrapper{
+        position:relative;
+        left:13px;
+    }
+    .button-wrapper button{
+        font-size: 10px;
+    }
+    h2{
+        font-size:1rem;
+    }
+    .eventSelection p{
+        font-size:18px;
+    }
+    input{
+        width:5rem;
+        font-size:0.50rem;
+        padding:0.3rem;
+    }
+    .info p{
+        font-size: 1rem;
+    }
+}
